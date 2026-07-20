@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0b2ad47-6491-4379-81f6-ab9990a4eaf9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Bank-Management-System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ronakjawaliya-ux/Bank-Management-System-Python.git",
+    "accountId": "a9ec09a9-846e-445d-ac76-dff19e0a416d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3GlKMkc0IFeyNGnTJ4nITkZWbzh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.26222.68" />
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0b2ad47-6491-4379-81f6-ab9990a4eaf9" name="Changes" comment="" />
+      <created>1784540669545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784540669545</updated>
+      <workItem from="1784540670639" duration="882000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
