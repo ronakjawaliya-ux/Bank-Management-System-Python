@@ -33,13 +33,15 @@ while True:
 
     choice = input('Enter your choice: ')
 
+
+
     # 1. CREATE-ACCOUNT :
     if choice == '1':
         account_id = int(input('Enter account ID: '))
-        name =input('Enter your name: ')
-        age = input('Enter your age: ')
+        name = input('Enter your name: ')
+        age = int(input('Enter your age: '))
         phone_no = input('Enter your phone number: ')
-        initial_balance = input('Enter your initial balance: ')
+        balance = float(input('Enter your initial balance: '))
 
 
         account = {
@@ -47,7 +49,7 @@ while True:
                   'name': name,
                   'age': age,
                   'phone_no': phone_no,
-                  'initial_balance': initial_balance
+                  'balance': balance
         }
 
 
@@ -56,13 +58,15 @@ while True:
         for existing_account in accounts:
             if existing_account['id'] == account_id:
                   found = True
-                  print(f'Account {existing_account["name"]} already exists')
+                  print(f'Account ID {account_id} already exists')
                   break
 
         if not found:
             accounts.append(account)
             print('Account created successfully')
             save_accounts()
+
+
 
     # 2. VIEW-ALL-ACCOUNTS :
     elif choice == '2':
@@ -72,11 +76,12 @@ while True:
             print('\nAccounts List:\n')
             for account in accounts:
                 print("------------------------------------")
-                print("Account ID:",account ["id"])
-                print("Name:", account["name"])
-                print("Age:", account["age"])
-                print("Phone Number:", account["phone_no"])
-                print("Initial Balance:", account["initial_balance"])
+                print(f"Account ID   :{account ["id"]}")
+                print(f"Name         :{account["name"]}")
+                print(f"Age          :{account["age"]}")
+                print(f"Phone Number :{account["phone_no"]}")
+                print(f"Balance      :{account["balance"]:.2f}")
+
 
 
 
@@ -89,11 +94,11 @@ while True:
         for account in accounts:
             if account['id'] == search_id:
                 print('\nAccount Found')
-                print('Account ID:', account['id'])
-                print('Name:', account['name'])
-                print('Age:', account['age'])
-                print('Phone Number:', account['phone_no'])
-                print('Initial Balance:', account['initial_balance'])
+                print('Account ID:'    , account['id'])
+                print('Name:'          , account['name'])
+                print('Age:'           , account['age'])
+                print('Phone Number:'  , account['phone_no'])
+                print('Balance:'       , account['balance'])
                 found = True
                 break
 
@@ -101,6 +106,9 @@ while True:
             print('\nAccount not found')
 
 
+
+
     # 4.  DEPOSIT-MONEY :
     elif choice == '4':
+
 
