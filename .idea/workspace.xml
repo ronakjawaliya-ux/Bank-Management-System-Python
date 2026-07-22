@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b2ad47-6491-4379-81f6-ab9990a4eaf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Bank-Management-System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="e0b2ad47-6491-4379-81f6-ab9990a4eaf9" name="Changes" comment="Initial Bank Management System project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,41 +23,106 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ronakjawaliya-ux/Bank-Management-System-Python.git",
-    "accountId": "a9ec09a9-846e-445d-ac76-dff19e0a416d"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ronakjawaliya-ux&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ronakjawaliya-ux/Bank-Management-System-Python.git&quot;,
+    &quot;accountId&quot;: &quot;a9ec09a9-846e-445d-ac76-dff19e0a416d&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000001169646665" />
+      <entry key="S5" value="1.004279307026173" />
+      <entry key="S10" value="1.075906577676647" />
+      <entry key="S30" value="2.040944316511694" />
+      <entry key="S60" value="3.8033941775825615" />
+      <entry key="M2" value="6.603974128599936" />
+      <entry key="M5" value="11.796438927061859" />
+      <entry key="M10" value="22.71062729797619" />
+      <entry key="M15" value="35.99073653062441" />
+      <entry key="M30" value="68.76470891189722" />
+      <entry key="H1" value="111.46145320159715" />
+      <entry key="H2" value="158.00818890430517" />
+      <entry key="H4" value="196.47559805457817" />
+      <entry key="D1" value="241.93815535726674" />
+      <entry key="W1" value="251.37319297033272" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="5.701975435630156E-230" />
+      <entry key="S2" value="4.8865948787385984E-58" />
+      <entry key="S5" value="1.1901522834781388E-23" />
+      <entry key="S10" value="3.4498583789456324E-12" />
+      <entry key="S30" value="1.5110091318809685E-4" />
+      <entry key="S60" value="0.012292311175630413" />
+      <entry key="M2" value="0.11087992638416799" />
+      <entry key="M5" value="0.4348686034292757" />
+      <entry key="M10" value="0.9207948475320332" />
+      <entry key="M15" value="1.4206115000313095" />
+      <entry key="M30" value="2.6488633735412366" />
+      <entry key="H1" value="4.41920207860273" />
+      <entry key="H2" value="6.516396320718171" />
+      <entry key="H4" value="8.312077843214636" />
+      <entry key="D1" value="10.470866457517163" />
+      <entry key="W1" value="10.922108073743209" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.796093532288909E-18" />
+      <entry key="MS500" value="3.6851219934583973E-4" />
+      <entry key="S2" value="0.13855321763099424" />
+      <entry key="S5" value="0.4578415943449183" />
+      <entry key="S10" value="0.7491646589247151" />
+      <entry key="S30" value="1.9076328237453097" />
+      <entry key="S60" value="3.723437334502447" />
+      <entry key="M2" value="6.635230277985881" />
+      <entry key="M5" value="12.171949357509815" />
+      <entry key="M10" value="23.591693391704773" />
+      <entry key="M15" value="37.38107843293428" />
+      <entry key="M30" value="71.39334506888892" />
+      <entry key="H1" value="115.86400074713202" />
+      <entry key="H2" value="164.51125516639758" />
+      <entry key="H4" value="204.7786982866091" />
+      <entry key="D1" value="252.4070483458894" />
+      <entry key="W1" value="262.2950047212131" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3GlKMkc0IFeyNGnTJ4nITkZWbzh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,8 +138,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784540669545</updated>
-      <workItem from="1784540670639" duration="882000" />
+      <workItem from="1784540670639" duration="6749000" />
+      <workItem from="1784736563499" duration="1996000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Bank Management System project">
+      <option name="closed" value="true" />
+      <created>1784541577773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784541577773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Bank Management System project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Bank Management System project" />
   </component>
 </project>

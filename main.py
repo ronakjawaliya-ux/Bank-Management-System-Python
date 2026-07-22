@@ -39,7 +39,7 @@ while True:
         name =input('Enter your name: ')
         age = input('Enter your age: ')
         phone_no = input('Enter your phone number: ')
-        initial_balance = input('Enter your initial balance:')
+        initial_balance = input('Enter your initial balance: ')
 
 
         account = {
@@ -75,12 +75,32 @@ while True:
                 print("Account ID:",account ["id"])
                 print("Name:", account["name"])
                 print("Age:", account["age"])
-                print("Course:", account["course"])
                 print("Phone Number:", account["phone_no"])
                 print("Initial Balance:", account["initial_balance"])
 
 
 
     # 3. SEARCH-ACCOUNTS :
+    elif choice == '3':
+        search_id = int(input('Enter account ID search: '))
 
+        found = False
+
+        for account in accounts:
+            if account['id'] == search_id:
+                print('\nAccount Found')
+                print('Account ID:', account['id'])
+                print('Name:', account['name'])
+                print('Age:', account['age'])
+                print('Phone Number:', account['phone_no'])
+                print('Initial Balance:', account['initial_balance'])
+                found = True
+                break
+
+        if not found:
+            print('\nAccount not found')
+
+
+    # 4.  DEPOSIT-MONEY :
+    elif choice == '4':
 
