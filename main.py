@@ -110,5 +110,22 @@ while True:
 
     # 4.  DEPOSIT-MONEY :
     elif choice == '4':
+        deposit_id = int(input("Enter Account ID: "))
 
+        found = False
+
+        for account in accounts:
+            if account["id"] == deposit_id:
+                found = True
+
+
+                 if deposit_amount <= 0:
+                     print('\nInvalid deposit amount')
+                 else
+                     account["balance"] = account["balance"] + deposit_amount
+
+                break
+
+        if not found:
+            print("Account not found")
 
