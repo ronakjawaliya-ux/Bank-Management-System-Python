@@ -118,14 +118,116 @@ while True:
             if account["id"] == deposit_id:
                 found = True
 
+                deposit_amount = float(input("Enter deposit amount: "))
 
-                 if deposit_amount <= 0:
-                     print('\nInvalid deposit amount')
-                 else
-                     account["balance"] = account["balance"] + deposit_amount
-
+                if deposit_amount <= 0:
+                   print('\nInvalid deposit amount')
+                else:
+                   account["balance"] += deposit_amount
+                   print("\nDeposit successful!")
+                   print(f"New Balance: ₹{account['balance']:.2f}")
+                   save_accounts()
                 break
 
         if not found:
             print("Account not found")
+
+
+    # 5. WITHDRAW-MONEY :
+    elif choice == '5':
+        withdraw_id = int(input('Enter Account ID: '))
+
+        found = False
+
+        for account in accounts:
+            if account["id"] == withdraw_id:
+                found = True
+
+                withdraw_amount = float(input("Enter withdrawal amount: "))
+
+                if withdraw_amount <= 0:
+                    print('\nInvalid withdrawal amount')
+
+                elif withdraw_amount > account["balance"]:
+                    print("\nInsufficient balance!")
+                    print(f"Current Balance: ₹{account['balance']:.2f}")
+
+                else:
+                    account["balance"] -= withdraw_amount
+                    print("\nWithdrawal successful!")
+                    print(f"New Balance: ₹{account['balance']:.2f}")
+                    save_accounts()
+                break
+
+        if not found:
+            print("Account not found")
+
+
+
+    # 6. TRANSFER_MONEY :
+    elif choice == '6':
+
+        try:
+            sender_id = int(input("Enter Sender Account ID: "))
+            receiver_id = int(input("Enter Receiver Account ID: "))
+
+        except ValueError:
+            print("\nError: Please enter valid numeric Account IDs.")
+            continue
+
+
+        if sender_id == receiver_id:
+            print("\nError: Sender and Receiver cannot be the same account.")
+            continue
+        sender_account = None
+        receiver_account = None
+
+        for account in accounts:
+
+            if account["id"] == sender_id:
+                sender_account = account
+
+            if account["id"] == receiver_id:
+                receiver_account = account
+
+            if sender_account is not None and receiver_account is not None:
+                break
+
+        if sender_account is None or receiver_account is None:
+            print("\nError: sender or receiver account not found.")
+            continue
+
+
+        try:
+            transfer_amount = float(input("Enter Transfer Amount: ₹"))
+
+        except ValueError:
+            print("\nError: Please enter a valid amount.")
+            continue
+
+
+        if transfer_amount <= 0:
+            print("\nError: Transfer amount must be greater than 0.")
+
+        elif transfer_amount > sender_account['balance']:
+            print("\nInsufficient balance!")
+            print(f"Current Balance: ₹{sender_account['balance']:.2f}")
+
+        else:
+
+            sender_account['balance'] -= transfer_amount
+            receiver_account['balance'] += transfer_amount
+
+            save_accounts()
+
+            print("\n========== Transfer Successful ==========")
+            print(f"Transferred Amount : ₹{transfer_amount:.2f}")
+            print(f"From Account    : {sender_id}")
+            print(f"To Account      : {receiver_id}")
+            print(f"Sender Balance  : ₹{sender_account['balance']:.2f}")
+            print(f"Receiver Balance: ₹{receiver_account['balance']:.2f}")
+
+
+
+
 
